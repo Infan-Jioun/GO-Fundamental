@@ -36,5 +36,7 @@ func main() {
 	// fmt.Println(score)
 	// *  Function Call
 	makeCoffee()
+	makeCoffee()
+	makeCoffee()
 
 }
