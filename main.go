@@ -48,13 +48,22 @@ func main() {
 	// 	fmt.Printf("Making hot %s....", coffeeType)
 	// }("Latter")
 	//* Variable Scope
-	sugar := 2
-	makeCoffee := func() {
-		coffee := "Cappaccino"
-		sugar := 3 // Modify
-		fmt.Printf("Making %s with %d spoon of sugar \n", coffee, sugar)
-		fmt.Println("Value of inner sugar", sugar)
+	// sugar := 2
+	// makeCoffee := func() {
+	// 	coffee := "Cappaccino"
+	// 	sugar := 3 // Modify
+	// 	fmt.Printf("Making %s with %d spoon of sugar \n", coffee, sugar)
+	// 	fmt.Println("Value of inner sugar", sugar)
+	// }
+	// makeCoffee()
+	// fmt.Println("Value of outer sugar", sugar)
+	//* if-else & switch/
+	score := 20
+	if score >= 80 {
+		fmt.Println("You Got Gold Medal...")
+	} else if score >= 70 {
+		fmt.Println("You Got Silver Medal...")
+	} else {
+		fmt.Println("You got participation certificate...")
 	}
-	makeCoffee()
-	fmt.Println("Value of outer sugar", sugar)
 }
