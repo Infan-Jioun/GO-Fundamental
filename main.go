@@ -35,8 +35,16 @@ func main() {
 	// var score float64    //* 0
 	// fmt.Println(score)
 	// *  Function Call
-	makeCoffee()
-	makeCoffee()
-	makeCoffee()
-
+	// makeCoffee()
+	// makeCoffee()
+	// makeCoffee()
+	//* Anonymus Functions
+	// makeCoffee := func() {
+	// 	fmt.Printf("Making Coffee")
+	// }
+	// makeCoffee()
+	//* IIFE Functions
+	func(coffeeType string) {
+		fmt.Printf("Making hot %s....", coffeeType)
+	}("Latter")
 }
