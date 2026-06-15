@@ -58,12 +58,27 @@ func main() {
 	// makeCoffee()
 	// fmt.Println("Value of outer sugar", sugar)
 	//* if-else & switch/
-	score := 20
-	if score >= 80 {
-		fmt.Println("You Got Gold Medal...")
+	// score := 20
+	// if score >= 80 {
+	// 	fmt.Println("You Got Gold Medal...")
+	// } else if score >= 70 {
+	// 	fmt.Println("You Got Silver Medal...")
+	// } else {
+	// 	fmt.Println("You got participation certificate...")
+	// }
+	//* Scoped if else
+	if score := 60; score >= 80 {
+		prizeMoney := 1000
+		fmt.Println("You have won Gold Medal and prize money is", prizeMoney)
+		fmt.Println("You Got Gold Medal an your score is", score)
 	} else if score >= 70 {
-		fmt.Println("You Got Silver Medal...")
+
+		fmt.Println("You Got Silver Medal and your score is", score)
 	} else {
-		fmt.Println("You got participation certificate...")
+		fmt.Println("You got participation certificate and your score is", score)
 	}
+
+	// if err := saveToDb(); err != nil {
+	// 	fmt.Println("Error:", err)
+	// }
 }
