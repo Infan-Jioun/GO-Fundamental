@@ -82,14 +82,21 @@ func main() {
 	// 	fmt.Println("Error:", err)
 	// }
 	// *Switch
-	day := "fri"
-	switch day {
-	case "sat":
-		println("Yes, work day!")
-	case "sun":
-		println("Yes, Second work day")
-	case "fri":
-		println("Yes, Jummah Day!")
-	}
+	// day := "fri"
+	// switch day {
+	// case "sat":
+	// 	println("Yes, work day!")
+	// case "sun":
+	// 	println("Yes, Second work day")
+	// case "fri":
+	// 	println("Yes, Jummah Day!")
+	// default:
+	// 	println("Another boring day")
+	// }
+	//* For Loop
 
+	for i := 0; i < 5; i++ {
+		makeCoffee()
+		fmt.Println(i)
+	}
 }
