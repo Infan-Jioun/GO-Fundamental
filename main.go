@@ -95,8 +95,8 @@ func main() {
 	// }
 	//* For Loop
 
-	for i := 0; i <= 5; i++ {
-		makeCoffee()
-		fmt.Println(i)
-	}
+	// for i := 0; i <= 5; i++ {
+	// 	makeCoffee()
+	// 	fmt.Println(i)
+	// }
 }
