@@ -37,7 +37,7 @@ func main() {
 	// fmt.Println("After without pointer:", bigArray)
 
 	modifyWithPointer(&bigArray)
-	fmt.Println("After with pointer:", bigArray)
+	fmt.Println("After with poin/ter:", bigArray)
 
 }
 

@@ -1,3 +1,12 @@
+// *crating struct type
+// *Different ways to create struct
+// *using printf to print struct (%+v)
+// *updating struct fields
+// *Accessing struct fields
+
+// *embedding struct
+// *constructor function
+
 package main
 
 import "fmt"
@@ -61,12 +70,3 @@ func main() {
 	fmt.Println(jamal)
 
 }
-
-// crating struct type
-// Different ways to create struct
-// using printf to print struct (%+v)
-// updating struct fields
-// Accessing struct fields
-
-// embedding struct
-// constructor function
